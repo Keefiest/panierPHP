@@ -1,0 +1,55 @@
+/*ALL*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*BODY*/
+body{
+    background-color: beige;
+}
+#wrapper{
+    width: 70%;
+    margin: auto;
+}
+h1{
+    background-color: white;
+    width: 30%;
+    padding: 1em;
+    margin: auto;
+}
+#art1{
+    background-color: blanchedalmond;
+    width: 30%;
+    padding: 1em;
+    margin: auto;
+}
+nav{
+    background-color: blanchedalmond;
+    width: 30%;
+    margin: auto;
+    padding: 1em;
+    flex-direction: column;
+    
+}
+
+
+#recap{
+    background-color: blanchedalmond;
+    width: 30%;
+    margin: auto;
+    padding: 1em;
+}
+.button{
+    display: inline-block;
+    padding: 5px 8px;
+    font-size: 20px;
+    border-radius: 0;
+    -webkit-appearance: none;
+    cursor: pointer;
+    margin: 3px;
+}
+.button::-moz-focus-inner { 
+    border: 0;
+}
